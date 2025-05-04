@@ -10,7 +10,7 @@ public class Level {
     public void setPoints (int p ) {
         points = p ;
     }
-    public boolean reachGoal() {
-        goal = true;
+    public void reachGoal() {
+        goal= true;
     }
 }
